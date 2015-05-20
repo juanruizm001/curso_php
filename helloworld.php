@@ -1,15 +1,10 @@
 <?php
 
-    //Definimos configuración para mostrar errores
-    ini_set('display_errors', true);
-    error_reporting(E_ALL);
+    require 'config.php';
+    require 'helpers.php';
 
-    $languaje = "PHP";
+    $language = "PHP";
+    $titulo = "Curso de PHP";
 
-    //Declarando la función
-    function view($languaje)
-    {
-        require "view.php";
-    }
     //Llamamos a la función
-    view($languaje);
+    view('view', compact('language', 'titulo'));

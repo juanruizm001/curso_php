@@ -2,14 +2,14 @@
 <html>
 <head>
     <title>
-
+        <?= $titulo ?>
     </title>
 </head>
 <body>
-<h1>Curso de PHP</h1>
-<?php
-echo "Aprendiendo <strong>$languaje</strong>";
-?>
+<h1><?= $titulo ?></h1>
+
+Aprendiendo <strong> <?= $language ?></strong>
+
 </body>
 </html>
 
