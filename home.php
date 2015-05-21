@@ -7,4 +7,4 @@
     $titulo = "Curso de PHP";
 
     //Llamamos a la función
-    view('view', compact('language', 'titulo'));
+    view('home', compact('language', 'titulo'));

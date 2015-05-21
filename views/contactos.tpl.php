@@ -6,10 +6,7 @@
     </title>
 </head>
 <body>
-<h1><?= $titulo ?></h1>
-
-Aprendiendo <strong> <?= $language ?></strong>
-
+<p>pruebas@test.com</p>
 </body>
 </html>
 
