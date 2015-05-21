@@ -11,6 +11,13 @@ class View extends Response {
         $this-> vars =$vars;
     }
 
+/*
+ *    public function add($var, $value)
+ *    {
+ *        $this->vars[$var] = $value
+ *    }
+ */
+
     public function getTemplate()
     {
         return $this->template;
