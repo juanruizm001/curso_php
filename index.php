@@ -8,9 +8,5 @@ require 'helpers.php';
 
 //Llamar al controlador indicado
 
-if (empty($_GET['url']))
-{
-    $_GET['url'] = 'home';
-}
-    controller($_GET['url']);
+controller($_GET['url']);
 
