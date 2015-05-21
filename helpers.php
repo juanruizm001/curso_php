@@ -9,7 +9,6 @@ function view($template, $vars = array())
 
 function controller ($name)
 {
-
     if (empty($name))
     {
         $name = 'home';

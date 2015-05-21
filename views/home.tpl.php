@@ -8,7 +8,6 @@
 <body>
 <h1><?= $titulo ?></h1>
 
-Aprendiendo <strong> <?= $language ?></strong>
 
 <p><a href="contactos.php">Contactanos</a> </p>
 </body>

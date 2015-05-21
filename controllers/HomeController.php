@@ -5,7 +5,7 @@ class HomeController {
 
     public function indexAction()
     {
-        exit('pagina index');
+        return new View('home', ['titulo' => 'AprendiendoPHP']);
     }
 
 }
