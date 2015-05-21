@@ -28,8 +28,17 @@ class View extends Response {
 
         call_user_func(function () use ($template, $vars) {
             extract($vars);
+
+            ob_start();
+
             require "views/$template.tpl.php";
+
+            $tpl_content = ob_get_clean();
+
+            require "views/layout.tpl.php";
+            //die($tpl_content);
         });
     }
+
 
 }
